@@ -1,6 +1,6 @@
 # epic-gsfc
 
-Downlaod latest images from epic-gsfc
+Downlaod latest images from epic-gsfc https://epic.gsfc.nasa.gov
 
 ## Building
 
