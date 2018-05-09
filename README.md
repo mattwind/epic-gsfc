@@ -6,7 +6,7 @@ https://epic.gsfc.nasa.gov/about/api
 
 ## Depencies
 
-Newtonsoft
+Newtonsoft https://www.newtonsoft.com/json
 
 ## Building
 
