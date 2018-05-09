@@ -1,11 +1,13 @@
 # epic-gsfc
 
-Download latest images from epic-gsfc https://epic.gsfc.nasa.gov
+Download latest images from epic-gsfc API
+
+https://epic.gsfc.nasa.gov/about/api
+
+## Depencies
+
+Newtonsoft
 
 ## Building
 
-Uses the HtmlAgilityPack http://html-agility-pack.net/
-
 dotnet publish -c release -r debian.8-x64
-
-
