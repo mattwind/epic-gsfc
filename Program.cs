@@ -17,12 +17,9 @@ namespace epic
             using (WebClient c = new WebClient())
             {
                 string data = new WebClient().DownloadString(api);
-
                 JArray jsonArray = JArray.Parse(data);
-
                 string filename = jsonArray[index]["image"].ToString();
                 string fullPath = string.Format("{0}/{1}/{3}/{2}.{3}", imgPath, Yesterday, filename, imgType);
-
                 c.DownloadFile(fullPath, filename + "." + imgType);
                 c.Dispose();
             }
